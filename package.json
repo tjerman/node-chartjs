@@ -1,6 +1,6 @@
 {
   "name": "node-chartjs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Chart.js on the server in Node.js",
   "engines": {
     "node": ">=8.0.0"
@@ -24,13 +24,15 @@
   },
   "author": "Jack Tuck",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "opn": "^5.2.0",
     "jsdom": "^16.1.0",
     "canvas": "^2.6.1",
-    "chart.js": "2.4.0",
-    "opn": "^5.2.0"
+    "chart.js": "2.4.0"
   },
   "peerDependencies": {
-    "chart.js": "2.4.0"
+    "jsdom": ">=16.0.0",
+    "canvas": ">=2.6.0",
+    "chart.js": ">=2.0.0"
   }
 }
